@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Verse</title>
+    <link rel="stylesheet" href="../css_files/movies.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><a href="">CINEVERSE</a></div>
+
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="franchises.html">Franchises</a></li>
+        <li><a href="characters.html">Characters</a></li>
+      </ul>
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <div id="maindiv">
+	
+	<div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/the_shawshank_redemption.jpg"/></a></center><br>
+	  <center><a href="">The Shawshank Redemption (1994)</a></center>
+	  </div>
+	  
+	  <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/no_country_for_old_men.jpg"/></a></center><br>
+	  <center><a href="">No Country For Old Men (2007)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/titanic.jpg"/></a></center><br>
+	  <center><a href="">Titanic (1997)</a></center>
+	  </div>
+	  
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/toy_story.jpg"/></a></center><br>
+	  <center><a href="">Toy Story (1995)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/back_to_the_future.jpg"/></a></center><br>
+	  <center><a href="">Back to the Future (1985)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/avatar.jpg"/></a></center><br>
+	  <center><a href="">Avatar (2009)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/it.jpg"/></a></center><br>
+	  <center><a href="">It (2017)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/endgame.jpg"/></a></center><br>
+	  <center><a href="">Avengers Endgame (2019)</a></center>
+	  </div>
+	  
+	     <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/jurassic_park.jpg"/></a></center><br>
+	  <center><a href="">Jurassic Park (1993)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="movie" src="../images/Movies/spider-man.jpg"/></a></center><br>
+	  <center><a href="">Spider-Men (2002)</a></center>
+	  </div>
+    </div>
+	
+  </body>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuList = document.querySelector("nav ul");
+    menu.addEventListener("click", () => {
+      menuList.classList.toggle("showmenu");
+    });
+  </script>
+</html>

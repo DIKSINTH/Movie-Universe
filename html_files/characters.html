@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Characters Verse</title>
+    <link rel="stylesheet" href="../css_files/characters.css" />
+	<link rel="icon" href="../logo/logo.jpg">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><a href="">CINEVERSE</a></div>
+
+      <ul>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="characters.html">Characters</a></li>
+      </ul>
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <div id="maindiv">
+	
+	<div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/1.jpg"/></a></center><br>
+	  <center><a href="">Johnny Depp as Jack Sparrow (2003-2017)</a></center>
+	  </div>
+	  
+	  <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/2.jpg"/></a></center><br>
+	  <center><a href="">Daniel Radcliffe as Harry Potter (2001-2011)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/3.jpg"/></a></center><br>
+	  <center><a href="">Robert Dawney Jr. as Tony Stark (2008-2019)</a></center>
+	  </div>
+	  
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/4.jpg"/></a></center><br>
+	  <center><a href="">Milla Jovovich as Alice (2002-2017)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/5.jpg"/></a></center><br>
+	  <center><a href="">Hugh Jackman as Logan (2000-2024)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/6.jpg"/></a></center><br>
+	  <center><a href="">as Pennywise (2017-2019)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/7.jpg"/></a></center><br>
+	  <center><a href="">Emma Watson as Hermione Granger (2001-2011)</a></center>
+	  </div>
+	  
+	   <div class="movies">
+      <center><a href=""><img class="character" src="../images/Characters/8.jpg"/></a></center><br>
+	  <center><a href="">Chris Evans as Steve Rogers (2011-2019)</a></center>
+	  </div>
+    </div>
+	
+  </body>
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuList = document.querySelector("nav ul");
+    menu.addEventListener("click", () => {
+      menuList.classList.toggle("showmenu");
+    });
+  </script>
+</html>
